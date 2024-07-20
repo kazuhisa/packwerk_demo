@@ -2,12 +2,6 @@
 
 one:
   user: one
-  license_plate_number: MyString
-  aeb: false
-  category: 1
 
 two:
   user: two
-  license_plate_number: MyString
-  aeb: false
-  category: 1
