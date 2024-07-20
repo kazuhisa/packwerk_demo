@@ -1,4 +1,4 @@
-class RealReservation < ApplicationRecord
+class TelemedicineReservation < ApplicationRecord
   belongs_to :user
   self.table_name = 'reservations'
 

@@ -22,9 +22,3 @@
     - dependency
     files:
     - packs/telemedicine_reservations/app/models/telemedicine_reservation.rb
-packs/real_reservations:
-  "::RealReservation":
-    violations:
-    - dependency
-    files:
-    - packs/telemedicine_reservations/app/models/telemedicine_reservation.rb
