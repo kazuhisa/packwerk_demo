@@ -118,6 +118,11 @@ GEM
     erubi (1.13.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphwerk (1.2.1)
+      activesupport
+      packwerk
+      ruby-graphviz
+      sorbet-runtime
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -262,6 +267,8 @@ GEM
       io-console (~> 0.5)
     rexml (3.3.0)
       strscan
+    ruby-graphviz (1.2.5)
+      rexml
     rubyzip (2.3.2)
     selenium-webdriver (4.22.0)
       base64 (~> 0.2)
@@ -333,6 +340,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  graphwerk
   importmap-rails
   jbuilder
   packs-rails
